@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<html lang="fi" <head>
+<title>Taulukko</title>
+</head>
+
+<body>
+    <form>
+        <fieldset>
+            <legend>Contact information</legend>
+            <label>First Name</label>
+            <input type="text" id="fname" name="fname"><br>
+            <label>Last Name</label>
+            <input type="text" id="lname" name="lname"><br>
+            <input type>"submit" value="lähetä"
+            <label></label>
+
+
+
+        </fieldset>
+    </form>
+
+</body>
