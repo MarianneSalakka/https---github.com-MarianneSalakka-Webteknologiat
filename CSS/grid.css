@@ -53,6 +53,7 @@
         "card-left card-left";
     align-items: center;
     margin: 10px;
+
 }
 
 .card-header {
@@ -61,20 +62,30 @@
 
 .card-main {
     grid-area: card-main;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
 }
 
 .card-left {
     grid-area: card-left;
-    justify-self: end;
 }
 
 .card-right {
     grid-area: card-right;
-    text-align: end;
+    justify-self: end;
 }
 
 button {
     border-radius: 5px;
     width: 70px;
     height: 25px;
+}
+
+button.ok {
+    background-color: deeppink;
+}
+
+button.cancel {
+    background-color: blueviolet;
 }
