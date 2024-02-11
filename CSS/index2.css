@@ -1,0 +1,10 @@
+.container {
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.item.container {
+    border-radius: 8px;
+    background-color: rgb(157, 239, 239);
+    font-family: 'Courier New', Courier, monospace
+}

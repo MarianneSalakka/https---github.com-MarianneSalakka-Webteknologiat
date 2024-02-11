@@ -1,0 +1,38 @@
+body {
+    width: 50%;
+    margin: auto;
+    background-color: rgb(9, 207, 141);
+}
+
+fieldset {
+    background-color: rgb(95, 240, 192);
+    color: darkgreen;
+    border-color: green;
+    border-width: 3px;
+    border-radius: 10px;
+    border-style: dotted;
+    padding: 20px;
+    /*display: flex;*/
+
+}
+
+th {
+    text-align: center;
+    letter-spacing: 4;
+    white-space: nowrap;
+}
+
+.container {
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 10px;
+    margin: 10px;
+    background-color: aquamarine;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 5px;
+}
