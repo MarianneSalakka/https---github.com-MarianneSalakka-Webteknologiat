@@ -16,13 +16,13 @@ fieldset {
 
 }
 
-/*th {
+th {
     text-align: center;
     letter-spacing: 4;
     white-space: nowrap;
 }
 
-.conttainer {
+.container {
     display: flex;
     flex-direction: column-reverse;
 }
@@ -33,4 +33,3 @@ fieldset {
     justify-content: space-between;
     margin-top: 5px;
 }
-*/

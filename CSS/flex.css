@@ -1,0 +1,12 @@
+.container {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: darkkhaki;
+    justify-content: space-around;
+    margin: 30px;
+}
+
+fieldset {
+    background-color: deeppink;
+    box-sizing: border-box;
+}
