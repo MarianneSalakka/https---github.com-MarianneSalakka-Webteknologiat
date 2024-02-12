@@ -8,3 +8,22 @@
     background-color: rgb(157, 239, 239);
     font-family: 'Courier New', Courier, monospace
 }
+
+body {
+    background-color: rgb(122, 122, 242);
+    font-family: 'Courier New', Courier, monospace
+}
+
+div {
+    background-color: rgb(215, 195, 234);
+    border-radius: 5px;
+    align-items: center;
+
+}
+
+header {
+    background-color: rgb(239, 232, 245);
+    border-radius: 5px;
+    align-items: center;
+
+}
