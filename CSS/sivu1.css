@@ -9,4 +9,15 @@
     margin: 10px;
     padding: 20px;
     border: 1px solid #000;
+    background-color: rgb(241, 155, 155);
+    border-radius: 5%;
+    align-items: center;
+
+    font-family: cursive;
+}
+
+.footer {
+    background-color: rgb(18, 100, 252);
+    text-align: center;
+
 }

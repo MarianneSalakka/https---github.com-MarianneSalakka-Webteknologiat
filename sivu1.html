@@ -7,32 +7,94 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Laatikkosivu</title>
     <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
+<style>
+    body {
+        background-image: url('images/niitty.jpg');
+        background-position: right;
+        background-size: 150%;
+        align-items: center;
+    }
+</style>
 
 <body>
-
+    <nav class="navbar bg-primary" data-bs-theme="dark">
+        <ul class="nav justify-content-center">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="sivu1.html">Etusivu</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="index2.html">Omat opintoni</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="lomake.html">Lomake</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="grid.html">Esimerkki Grid asettelulla</a>
+            </li>
+        </ul>
+    </nav>
 
     <div class="container">
         <div class="box">
-            <p>La</p>
+            <h3>
+                &lt;Html&gt;
+            </h3>
+            <p><b>Html</b> on ohjelmointikieli verkkosivujen luomiseen. Se koostuu erilaisista elementeistä.
+            </p>
+            <img src="images/html_kuva.png" width="250">
         </div>
         <div class="box">
-            <p>Laatikko 2</p>
+            <h4>&lt;Head&gt;</h4>
+            <p><b>&lt;Head&gt;</b> on Html elementti, joka sisältää metadataa. Siihen merkitään tietoa dokumentista sen
+                näyttämistä varten, kuten tyyli ja scriptit. Tarkempaa tietoa elementistä ja sen käytöstä löydät
+                tästä linkistä.
+            </p>
+            <a href="https://www.w3schools.com/">W3Schools.com</a>
+            <p>Head sisältää seuraavat tagit:</p>
+            <ul>
+                <li>&lt;title&gt;</li>
+                <li>&lt;link&gt;</li>
+                <li>&lt;meta&gt;</li>
+                <li>&lt;style&gt;</li>
+                <li>&lt;script&gt;</li>
+            </ul>
+
         </div>
         <div class="box">
-            <p>Laatikko 3</p>
+            <h4>&lt;Body&gt;</h4>
+            <p><b>&lt;Body&gt;</b> elementti sisältää kaiken näkyvän osan ja siinä luodaan rakenne koko sivustolle. Body
+                voi
+                rakentua erilasista otsikoista, diveistä, grideistä jne. <b>Bootstrap</b> tarjoaa paljon valmiita
+                ideoita sivuston rakentamiseen. Voit tutustua bootstrapin ominaisuuksiin täältä.</p>
+            <a href="https://getbootstrap.com/">Bootstrap</a>
         </div>
         <div class="box">
-            <p>Laatikko 4</p>
+            <h3>Tekstit</h3>
+            <p><b>Tekstit</b> kirjoitetaan &lt;p&gt; tagien sisään. Kun tarvitaan <b>rivinvaihto</b>, merkitään se
+                <b>&lt;br&gt;</b>
+                tagilla. &lt;Br&gt;
+                tagilla ei ole lopetustagia.
+            </p>
         </div>
         <div class="box">
-            <p>Laatikko 5</p>
+            <h3>Kuvat</h3>
+            <p>Kuvat liitetään html koodiin &lt;img&gt; tagilla. On oltava tarkka, että tiedostopolku on oikea. Kuvan
+                kokoa ja
+                muita ominaisuuksia on mahdollista muokata määrittämäällä muun muassa leveyttä.</p>
         </div>
         <div class="box">
             <p>Laatikko 6</p>
         </div>
     </div>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <footer>
+        <p><em>Tekijä: Marianne Salakka</em></p>
+    </footer>
 </body>
 
 </html>
