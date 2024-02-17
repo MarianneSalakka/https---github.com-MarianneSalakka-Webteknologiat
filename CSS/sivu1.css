@@ -16,8 +16,8 @@
     font-family: cursive;
 }
 
-.footer {
+footer {
     background-color: rgb(18, 100, 252);
     text-align: center;
-
+    color: rgb(121, 186, 242);
 }
